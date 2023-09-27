@@ -3,7 +3,7 @@ package crud;
 public class Alumno {
 
 String NumControl;
-String nombre;
+String Nom;
 String ap;
 String am;
 String grupo;
@@ -15,11 +15,11 @@ public String getNumControl() {
 public void setNumControl(String numControl) {
 	NumControl = numControl;
 }
-public String getNombre() {
-	return nombre;
+public String getNom() {
+	return Nom;
 }
-public void setNombre(String nombre) {
-	this.nombre = nombre;
+public void setNombre(String Nom) {
+	this.Nom = Nom;
 }
 public String getAp() {
 	return ap;
@@ -53,12 +53,13 @@ public void setTurno(String turno) {
 }
 public void escribirString() {
 System.out.println("numero de control"+NumControl);
-System.out.println("nombre"+nombre);
+System.out.println("nombre"+Nom);
 System.out.println("ap"+ap);
 System.out.println("am"+am);
 System.out.println("grupo"+grupo);
 System.out.println("carrera"+carrera);
 System.out.println("turno"+turno);
+
 }
 
 
